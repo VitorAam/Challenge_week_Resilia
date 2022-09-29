@@ -1,0 +1,45 @@
+section {
+    background-color: black;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    height: 12vh;
+    border-radius: 15px;
+}
+
+section input, button {
+    margin: 30px;
+}
+
+section button {
+    background-color:#FFDD00;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+}
+
+section input {
+    border-radius: 5px;
+    border:0px;
+    transition-duration: 1s;
+}
+
+section input::placeholder {
+    color: black;
+    text-align: center;
+}
+
+section input:focus {
+    box-shadow: 1px 1px 30px 3px yellow;
+}
+
+.inputPadraoUm {
+    width: 320px;
+}
+
+.inputPadraoDois {
+    width: 230px;
+}

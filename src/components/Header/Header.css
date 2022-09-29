@@ -1,0 +1,15 @@
+header {
+    background-color: black;
+    color: #FFDD00;
+    height: 11vh;
+    text-align: center;
+    box-shadow: 1px 3px 9px black;
+}
+
+header h1 {
+    padding-top: 4vh;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
